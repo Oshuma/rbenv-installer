@@ -3,6 +3,8 @@
 This tool is used to install `rbenv` and some plugins. It also provides 
 scripts to install required software to be able to compile **Ruby**.
 
+Forked from [fesplugas/rbenv-installer](https://github.com/fesplugas/rbenv-installer).
+
 
 ## Requirements
 
@@ -14,7 +16,7 @@ scripts to install required software to be able to compile **Ruby**.
 
 Install [rbenv] and friends by running:
 
-    curl https://raw.github.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
+    curl https://raw.github.com/Oshuma/rbenv-installer/master/bin/rbenv-installer | bash
 
 
 ## Installing a Ruby
@@ -30,14 +32,6 @@ Install Ruby `1.9.3-p392` and make it global:
 Update `rbenv` and plugins provided by the installer running:
 
     rbenv update
-
-
-## Bootstrap
-
-If you are installing `rbenv` in Ubuntu you'll probably need to install
-some required packages. You can use the provided `bootstrap` scripts.
-
-    rbenv bootstrap-ubuntu-12-04
 
 
 ## About rbenv
