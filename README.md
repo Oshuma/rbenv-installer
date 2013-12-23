@@ -33,10 +33,10 @@ end
 
 ## Installing a Ruby
 
-Install Ruby `1.9.3-p392` and make it global:
+Install Ruby `ruby-2.0.0-p353` and make it global:
 
-    rbenv install 1.9.3-p392
-    rbenv global 1.9.3-p392
+    rbenv install ruby-2.0.0-p353
+    rbenv global ruby-2.0.0-p353
 
 
 ## Updating
