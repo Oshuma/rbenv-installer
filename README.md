@@ -18,6 +18,18 @@ Install [rbenv] and friends by running:
 
     curl https://raw.github.com/Oshuma/rbenv-installer/master/bin/rbenv-installer | bash
 
+## fish shell
+
+```fish
+# ~/.config/fish/config.fish
+set -x RBENV_ROOT $HOME/.rbenv
+
+if test -d $RBENV_ROOT
+  set -x PATH $RBENV_ROOT/bin $PATH
+  status --is-interactive; and . (rbenv init -|psub)
+end
+```
+
 
 ## Installing a Ruby
 
