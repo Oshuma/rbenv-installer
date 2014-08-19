@@ -16,7 +16,7 @@ Forked from [fesplugas/rbenv-installer](https://github.com/fesplugas/rbenv-insta
 
 Install [rbenv] and friends by running:
 
-    curl https://raw.github.com/Oshuma/rbenv-installer/master/bin/rbenv-installer | bash
+    curl -fsSL https://raw.github.com/Oshuma/rbenv-installer/master/bin/rbenv-installer | bash
 
 ## fish shell
 
